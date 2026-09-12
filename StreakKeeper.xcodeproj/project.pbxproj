@@ -6,8 +6,29 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C414A31330558EE80023560F /* 1. empty state.png in Resources */ = {isa = PBXBuildFile; fileRef = C414A30B30558EE80023560F /* 1. empty state.png */; };
+		C414A31430558EE80023560F /* 3. New Habit form with reminder toggled on + time picker.png in Resources */ = {isa = PBXBuildFile; fileRef = C414A30D30558EE80023560F /* 3. New Habit form with reminder toggled on + time picker.png */; };
+		C414A31530558EE80023560F /* 4. Main list, 4 habits with streaks.png in Resources */ = {isa = PBXBuildFile; fileRef = C414A30E30558EE80023560F /* 4. Main list, 4 habits with streaks.png */; };
+		C414A31630558EE80023560F /* 2. new habit form, reminder off.png in Resources */ = {isa = PBXBuildFile; fileRef = C414A30C30558EE80023560F /* 2. new habit form, reminder off.png */; };
+		C414A31730558EE80023560F /* 5. Delete confirmation dialog on a habit detail.png in Resources */ = {isa = PBXBuildFile; fileRef = C414A30F30558EE80023560F /* 5. Delete confirmation dialog on a habit detail.png */; };
+		C414A31830558EE80023560F /* 8. Drink Water detail — 1-day streak, filled bar chart + highlighted heatmap day.png in Resources */ = {isa = PBXBuildFile; fileRef = C414A31230558EE80023560F /* 8. Drink Water detail — 1-day streak, filled bar chart + highlighted heatmap day.png */; };
+		C414A31930558EE80023560F /* 7. Workout detail, scrolled to show the Delete Habit button.png in Resources */ = {isa = PBXBuildFile; fileRef = C414A31130558EE80023560F /* 7. Workout detail, scrolled to show the Delete Habit button.png */; };
+		C414A31A30558EE80023560F /* 6. Workout detail — 0-day streak, empty chart:heatmap.png in Resources */ = {isa = PBXBuildFile; fileRef = C414A31030558EE80023560F /* 6. Workout detail — 0-day streak, empty chart:heatmap.png */; };
+		C414A31E305592D90023560F /* Simulator Screen Recording - iPhone 17 Pro - 2026-09-12 at 19.27.09.mov in Resources */ = {isa = PBXBuildFile; fileRef = C414A31D305592D90023560F /* Simulator Screen Recording - iPhone 17 Pro - 2026-09-12 at 19.27.09.mov */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		C414A2C5305582160023560F /* StreakKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreakKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C414A30B30558EE80023560F /* 1. empty state.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1. empty state.png"; sourceTree = "<group>"; };
+		C414A30C30558EE80023560F /* 2. new habit form, reminder off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2. new habit form, reminder off.png"; sourceTree = "<group>"; };
+		C414A30D30558EE80023560F /* 3. New Habit form with reminder toggled on + time picker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3. New Habit form with reminder toggled on + time picker.png"; sourceTree = "<group>"; };
+		C414A30E30558EE80023560F /* 4. Main list, 4 habits with streaks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4. Main list, 4 habits with streaks.png"; sourceTree = "<group>"; };
+		C414A30F30558EE80023560F /* 5. Delete confirmation dialog on a habit detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5. Delete confirmation dialog on a habit detail.png"; sourceTree = "<group>"; };
+		C414A31030558EE80023560F /* 6. Workout detail — 0-day streak, empty chart:heatmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6. Workout detail — 0-day streak, empty chart:heatmap.png"; sourceTree = "<group>"; };
+		C414A31130558EE80023560F /* 7. Workout detail, scrolled to show the Delete Habit button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7. Workout detail, scrolled to show the Delete Habit button.png"; sourceTree = "<group>"; };
+		C414A31230558EE80023560F /* 8. Drink Water detail — 1-day streak, filled bar chart + highlighted heatmap day.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "8. Drink Water detail — 1-day streak, filled bar chart + highlighted heatmap day.png"; sourceTree = "<group>"; };
+		C414A31D305592D90023560F /* Simulator Screen Recording - iPhone 17 Pro - 2026-09-12 at 19.27.09.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Simulator Screen Recording - iPhone 17 Pro - 2026-09-12 at 19.27.09.mov"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,8 +53,9 @@
 		C414A2BC305582160023560F = {
 			isa = PBXGroup;
 			children = (
-				C414A2C7305582160023560F /* StreakKeeper */,
+				C414A2FA305589A80023560F /* Screenshots */,
 				C414A2C6305582160023560F /* Products */,
+				C414A2C7305582160023560F /* StreakKeeper */,
 			);
 			sourceTree = "<group>";
 		};
@@ -43,6 +65,22 @@
 				C414A2C5305582160023560F /* StreakKeeper.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C414A2FA305589A80023560F /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				C414A31D305592D90023560F /* Simulator Screen Recording - iPhone 17 Pro - 2026-09-12 at 19.27.09.mov */,
+				C414A30B30558EE80023560F /* 1. empty state.png */,
+				C414A30C30558EE80023560F /* 2. new habit form, reminder off.png */,
+				C414A30D30558EE80023560F /* 3. New Habit form with reminder toggled on + time picker.png */,
+				C414A30E30558EE80023560F /* 4. Main list, 4 habits with streaks.png */,
+				C414A30F30558EE80023560F /* 5. Delete confirmation dialog on a habit detail.png */,
+				C414A31030558EE80023560F /* 6. Workout detail — 0-day streak, empty chart:heatmap.png */,
+				C414A31130558EE80023560F /* 7. Workout detail, scrolled to show the Delete Habit button.png */,
+				C414A31230558EE80023560F /* 8. Drink Water detail — 1-day streak, filled bar chart + highlighted heatmap day.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +147,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C414A31330558EE80023560F /* 1. empty state.png in Resources */,
+				C414A31430558EE80023560F /* 3. New Habit form with reminder toggled on + time picker.png in Resources */,
+				C414A31530558EE80023560F /* 4. Main list, 4 habits with streaks.png in Resources */,
+				C414A31E305592D90023560F /* Simulator Screen Recording - iPhone 17 Pro - 2026-09-12 at 19.27.09.mov in Resources */,
+				C414A31630558EE80023560F /* 2. new habit form, reminder off.png in Resources */,
+				C414A31730558EE80023560F /* 5. Delete confirmation dialog on a habit detail.png in Resources */,
+				C414A31830558EE80023560F /* 8. Drink Water detail — 1-day streak, filled bar chart + highlighted heatmap day.png in Resources */,
+				C414A31930558EE80023560F /* 7. Workout detail, scrolled to show the Delete Habit button.png in Resources */,
+				C414A31A30558EE80023560F /* 6. Workout detail — 0-day streak, empty chart:heatmap.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +305,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -289,6 +337,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
